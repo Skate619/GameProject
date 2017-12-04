@@ -1,0 +1,5 @@
+﻿  Source.cpp
+d:\documents\programming\c++\rpg game\rpg game\game.h(3): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Game.cpp
+d:\documents\programming\c++\rpg game\rpg game\game.h(3): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
