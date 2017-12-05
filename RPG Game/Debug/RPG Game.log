@@ -1,10 +1,2 @@
-﻿  Game.cpp
-d:\documents\programming\c++\rpg game\rpg game\game.cpp(13): warning C4996: 'sf::Text::setColor': was declared deprecated
-  d:\documents\programming\c++\rpg game\sfml\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
-d:\documents\programming\c++\rpg game\rpg game\game.cpp(16): warning C4996: 'sf::Text::setColor': was declared deprecated
-  d:\documents\programming\c++\rpg game\sfml\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
-d:\documents\programming\c++\rpg game\rpg game\game.cpp(95): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-d:\documents\programming\c++\rpg game\rpg game\game.cpp(99): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-d:\documents\programming\c++\rpg game\rpg game\game.cpp(121): warning C4018: '<=': signed/unsigned mismatch
-  RPG Game.vcxproj -> D:\Documents\Programming\C++\RPG Game\Debug\RPG Game.exe
-  RPG Game.vcxproj -> D:\Documents\Programming\C++\RPG Game\Debug\RPG Game.pdb (Partial PDB)
+﻿  RPG Game.vcxproj -> D:\Documents\Programming\Git\GameProject\Debug\RPG Game.exe
+  RPG Game.vcxproj -> D:\Documents\Programming\Git\GameProject\Debug\RPG Game.pdb (Partial PDB)
