@@ -1,10 +1,12 @@
-﻿  Game.cpp
+﻿  Source.cpp
+  Game.cpp
 d:\documents\programming\git\gameproject\rpg game\cppfiles\game.cpp(13): warning C4996: 'sf::Text::setColor': was declared deprecated
   d:\documents\programming\git\gameproject\sfml\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
 d:\documents\programming\git\gameproject\rpg game\cppfiles\game.cpp(16): warning C4996: 'sf::Text::setColor': was declared deprecated
   d:\documents\programming\git\gameproject\sfml\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
-d:\documents\programming\git\gameproject\rpg game\cppfiles\game.cpp(95): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-d:\documents\programming\git\gameproject\rpg game\cppfiles\game.cpp(99): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-d:\documents\programming\git\gameproject\rpg game\cppfiles\game.cpp(121): warning C4018: '<=': signed/unsigned mismatch
+d:\documents\programming\git\gameproject\rpg game\cppfiles\game.cpp(140): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+d:\documents\programming\git\gameproject\rpg game\cppfiles\game.cpp(144): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+d:\documents\programming\git\gameproject\rpg game\cppfiles\game.cpp(167): warning C4018: '<=': signed/unsigned mismatch
+  Generating Code...
   RPG Game.vcxproj -> D:\Documents\Programming\Git\GameProject\Debug\RPG Game.exe
   RPG Game.vcxproj -> D:\Documents\Programming\Git\GameProject\Debug\RPG Game.pdb (Partial PDB)

@@ -5,6 +5,8 @@
 #include <SFML/System.hpp>
 #include <iostream>
 #include <sstream>
+#include <fstream>
+#include <vector>
 using namespace std;
 const int MAX_BULLETS = 3;
 
@@ -18,6 +20,7 @@ public:
 	void UserInput();
 	void Update();
 	void Play();
+	void WriteFile(string fileName, bool isTemp);
 	void SetName(sf::RenderWindow* app, string myString);
 	void SetupFont(sf::Text textElement, sf::Font font);
 	string GetText(sf::Event event, string myString);
@@ -35,6 +38,8 @@ private:
 	sf::Text playerName;
 
 	sf::Font arial;
+
+	std::ofstream playerData;
 
 	bool Enter = false;
 	bool name = true;

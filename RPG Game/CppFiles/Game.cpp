@@ -16,6 +16,51 @@ void Game::Init()
 	playerName.setColor(sf::Color(255, 255, 255));
 }
 
+void Game::WriteFile(string fileName, bool isTemp)
+{
+	string fileNamePath = "PlayerData/";
+	fileName += ".txt";
+	fileNamePath += fileName;
+	playerData.open(fileNamePath);
+	// infile.open("Highscore.txt");
+	// while (infile >> a >> b >> tempName)
+	// {
+	// 	highscore_temp << a << " " << b << " " << tempName << "\n";
+	// }
+	// infile.close();
+	// highscore_temp.close();
+	// 
+	// highscore.open("Highscore.txt");
+	// infile.open("Highscore_temp.txt");
+	// while (infile >> a >> b >> tempName)
+	// {
+	// 	if (score > b && scoreWrite != true)
+	// 	{
+	// 		if (!myString.getSize() > 0)
+	// 			newName = "abc";
+	// 		else
+	// 		{
+	// 			for (int i = 0; i < myString.getSize(); ++i)
+	// 			{
+	// 				newName = newName + static_cast<char>(myString[i]);
+	// 			}
+	// 		}
+	// 		highscore << a << " " << score << " " << newName << "\n";
+	// 		scoreWrite = true;
+	// 	}
+	// 	else
+	// 		highscore << a << " " << b << " " << tempName << "\n";
+	// }
+	playerData.close();
+	/*
+		Need to figure out how to solve this elegently, not when it's 00:10am
+		remove("PlayerData/FileName.txt"); would work, but:
+		remove(fileNamePath); does not, and this makes me cry ;-;
+	*/
+	if (isTemp)
+		remove("");
+}
+
 void Game::Draw()
 {
 	GameWindow->clear(sf::Color::Black);
@@ -113,6 +158,7 @@ string Game::InputName(sf::RenderWindow* app)
 			Enter = false;
 	}
 	playerName.setString(myString);
+	WriteFile(myString, false);
 	return myString;
 }
 
